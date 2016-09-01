@@ -14,14 +14,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/lijianwei-jj/nodejs.git"
-  },
   "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/lijianwei-jj/nodejs/issues"
-  },
-  "homepage": "https://github.com/lijianwei-jj/nodejs#readme"
+  "license": "MIT",
 }
