@@ -5,6 +5,10 @@ var request = require('request')
 var cheerio = require("cheerio")
 var promise = require('request-promise')
 var iconv = require('iconv-lite')
+var co = require('co')
+var corequest = require('co-request')
+var thunkify = require('thunkify')
+
 http.createServer(function(req,resq){
 	var bookname=queryString.parse(url.parse(req.url).query).n
 	
