@@ -1,0 +1,11 @@
+# nodejs
+var http = require('http')
+var url = require('url')
+var queryString = require('querystring')
+var request = require('request')
+var cheerio = require("cheerio")
+var promise = require('request-promise')
+var iconv = require('iconv-lite')
+var co = require('co')
+var corequest = require('co-request')
+var thunkify = require('thunkify')
